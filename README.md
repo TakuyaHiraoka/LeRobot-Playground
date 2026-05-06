@@ -80,6 +80,13 @@ python hil_record_act.py \
 
 Multiple task strings can be passed to `--tasks`; a numbered selection menu appears at the start of each episode.
 
+
+Data collected with hil_record_act.py: https://huggingface.co/datasets/TakuyaHiraoka/so101_pick_diverse_objects_hil_round1  
+Policy trained on the above data: https://huggingface.co/TakuyaHiraoka/act_so101_pick_diverse_objects
+
+https://github.com/user-attachments/assets/b4571de0-7ce4-4a43-b80f-ef2babf4460b
+
+
 ### `rl_rollout_act.py` — exploration rollouts with latent noise + outcome labels
 
 Same control flow as `hil_record_act.py`, but adds:
