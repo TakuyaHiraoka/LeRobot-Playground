@@ -147,6 +147,18 @@ python visualize_value_predictions.py \
     --num_success 3 --num_failure 3
 ```
 
+Demo video:
+
+
+
+https://github.com/user-attachments/assets/c083de6f-5549-4d96-af49-5b36c85d2c45
+
+
+
+
+
+
+
 ## Notes
 
 - All scripts use `tty.setcbreak` on stdin for non-blocking key input, so keep the terminal window focused while recording.
