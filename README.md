@@ -108,6 +108,9 @@ python rl_rollout_act.py \
     --noise_std 0.05 --resume
 ```
 
+Data collected with rl_rollout_act.py:  
+https://huggingface.co/datasets/TakuyaHiraoka/so101_pick_diverse_objects_rl_round1
+
 ### `train_act_filtered.py` — REINFORCE-style ACT re-training
 
 For binary reward `R ∈ {0, 1}` and no advantage, the REINFORCE update collapses to standard supervised learning on the success episodes only:
