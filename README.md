@@ -127,7 +127,7 @@ python train_act_filtered.py \
     --base_policy     ./outputs/train/<act-run-name>/checkpoints/<step>/pretrained_model \
     --output_dir      outputs/train/<next-act-run-name> \
     -- \
-    --steps 30000 --batch_size 64 --policy.optimizer_lr 1e-5
+    --steps=30000 --batch_size=64 --policy.optimizer_lr=1e-5
 ```
 
 Use `--dry_run` to print the success / failure breakdown without launching training.
