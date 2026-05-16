@@ -84,6 +84,8 @@ Multiple task strings can be passed to `--tasks`; a numbered selection menu appe
 Data collected with hil_record_act.py: https://huggingface.co/datasets/TakuyaHiraoka/so101_pick_diverse_objects_hil_round1  
 Policy trained on the above data: https://huggingface.co/TakuyaHiraoka/act_so101_pick_diverse_objects
 
+Demo video: 
+
 https://github.com/user-attachments/assets/b4571de0-7ce4-4a43-b80f-ef2babf4460b
 
 
@@ -130,9 +132,10 @@ python train_act_filtered.py \
     --steps=30000 --batch_size=64 --policy.optimizer_lr=1e-5
 ```
 
+ACT policy finetuned with RL: : https://huggingface.co/TakuyaHiraoka/act_so101_pick_diverse_objects_reinforce
+
+
 Demo video: 
-
-
 
 https://github.com/user-attachments/assets/c84da44d-3673-4615-8726-f0df0404fef9
 
