@@ -130,7 +130,14 @@ python train_act_filtered.py \
     --steps=30000 --batch_size=64 --policy.optimizer_lr=1e-5
 ```
 
-Use `--dry_run` to print the success / failure breakdown without launching training.
+Demo video: 
+
+
+
+https://github.com/user-attachments/assets/c84da44d-3673-4615-8726-f0df0404fef9
+
+
+
 
 ### `train_reward_classifier.py` — binary success classifier (value head)
 
